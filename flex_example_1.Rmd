@@ -19,7 +19,7 @@ library(topicmodels)
 library(wordcloud)
 
 
-news <- read_csv('~/Downloads/news_sample.csv')
+news <- read_csv('news_sample.csv')
 head(news)
 
 news_df <- news %>%

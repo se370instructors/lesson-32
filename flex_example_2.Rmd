@@ -19,7 +19,7 @@ library(wordcloud)
 library(leaflet)
 
 
-news <- read_csv('~/Downloads/news_sample.csv')
+news <- read_csv('news_sample.csv')
 head(news)
 
 news_df <- news %>%
